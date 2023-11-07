@@ -1,0 +1,38 @@
+package com.example.todolist.Model;
+
+public class ToDoModel {
+
+    private String task;
+    private int id,status;
+
+    private String priority;
+
+    public String getTask() {
+        return task;
+    }
+
+    public void setTask(String task) {
+        this.task = task;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
+    }
+
+    public String getPriority() { return priority; }
+
+    public void setPriority(String priority) { this.priority = priority; }
+
+}
