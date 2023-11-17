@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "UserDatabase.db";
-    private static final int DATABASE_VERSION = 3; // Increment the version number when schema changes are made
+    private static final int DATABASE_VERSION = 5; // Increment the version number when schema changes are made
     private static final String TABLE_NAME = "users";
     private static final String COLUMN_ID = "id";
     private static final String COLUMN_USERNAME = "username";

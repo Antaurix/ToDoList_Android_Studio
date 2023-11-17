@@ -12,7 +12,7 @@
     <FrameLayout
         android:id="@+id/bubble_layout"
         android:layout_width="369dp"
-        android:layout_height="205dp"
+        android:layout_height="230dp"
         android:layout_alignParentBottom="true"
         android:layout_margin="24dp"
         android:layout_marginEnd="24dp"
@@ -27,12 +27,12 @@
         <TextView
             android:id="@+id/text_view"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:text="\n 1) To edit a task, hold and swipe it to the left side.
-            \n \n 2) To delete a task, swipe it to the right side or use the button."
+            \n \n 2) To delete a task, swipe it to the right side or use the delete button."
             android:textColor="#000000"
-            android:textStyle="bold"
-            android:textSize="26dp" />
+            android:textSize="26dp"
+            android:textStyle="bold" />
 
     </FrameLayout>
 
@@ -56,6 +56,7 @@
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:scaleY="3"
         android:progressTint="#FFE500"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
